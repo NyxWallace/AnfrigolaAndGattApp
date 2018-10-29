@@ -1,2 +1,2 @@
-# AnfrigolaAndGattApp
-L'applicazione mobile dell'Anfrigola &amp; Gatt Band
+# Anfrigola & Gatt App
+L'applicazione mobile dell'Anfrigola & Gatt Band
