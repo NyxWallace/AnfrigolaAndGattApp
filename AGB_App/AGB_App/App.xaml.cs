@@ -11,7 +11,9 @@ namespace AGB_App
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new LoginPage());
+
+            NavigationPage.SetHasNavigationBar(MainPage, false);
         }
 
         protected override void OnStart()
