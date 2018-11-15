@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage x:Class="AGB_App.LoginPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:extensions="clr-namespace:AGB_App.Extensions;assembly=AGB_App"
-             xmlns:viewModels="clr-namespace:AGB_App.ViewModels"
-             x:Class="AGB_App.LoginPage">
+             xmlns:viewModels="clr-namespace:AGB_App.ViewModels">
     <ContentPage.BindingContext>
         <viewModels:MainViewModel />
     </ContentPage.BindingContext>

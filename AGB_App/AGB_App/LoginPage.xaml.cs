@@ -21,7 +21,9 @@ namespace AGB_App
 
         private async void OpenMainPageMessage_Handler(OpenMainPageMessage msg)
         {
-            Navigation.InsertPageBefore(new MainPage(), this);
+            MainPage mainPage = new MainPage();
+            Navigation.InsertPageBefore(mainPage, this);
+            NavigationPage.SetHasNavigationBar(mainPage, false);
             await Navigation.PopAsync();
         }
     }
